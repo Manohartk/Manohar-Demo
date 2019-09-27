@@ -1,0 +1,160 @@
+.tdright_sidebar
+{
+  float:left;
+  width:100%;
+  display:block;
+  position: relative;
+}
+/* .tdright_fixed
+{
+  float:right;
+  width: 90px;
+  position: relative;
+  font-size: 10px;
+} */
+.tdright_fixed {
+    float: right;
+    width: 90px;
+    font-size: 10px;
+    position: fixed;
+    right: 0;
+    top: 26%;
+}
+
+.animate_setup, .export_setup,  .bom_setup, .camera_setup, .setting_setup, .twod_setup {
+    float: right;
+    width: 90px;
+    cursor: pointer;
+    background-color: rgb(40, 41, 45);
+    color: #fff;
+    padding: 6px 0;
+    height: 66px;
+}
+.animate__menu img, .export__menu img, .bom__menu img, .camera__menu img, .setting_menu img, .twod_menu  img {
+    height: 30px;
+    width: 30px;
+}
+.animate__menu, .export__menu, .bom__menu, .camera__menu, .setting_menu, .twod_menu  {
+    text-align: center;
+}
+.animate__menu span, .export__menu span, .bom__menu span, .camera__menu  span, .setting_menu span, .twod_menu span {
+    margin-bottom: 5px;
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+
+ul.submenu_animate, ul.submenu_export, ul.submenu_bom, ul.submenu_camera, ul.submenu_setting, ul.submenu_twod {
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+    display: none;
+}
+ul.submenu_animate.expand_menu, ul.submenu_export.expand_menu, ul.submenu_bom.expand_menu, ul.submenu_camera.expand_menu, ul.submenu_setting.expand_menu, ul.submenu_twod.expand_menu  {
+    display: block;
+}
+.submenu_animate li, .submenu_export li, .submenu_bom li, .submenu_camera li, .submenu_setting li, .submenu_twod li {
+    height: 66px;
+    vertical-align: middle;
+    display: table-cell;
+    width: auto;
+    padding: 5px 12px;
+}
+.submenu_animate li span, .submenu_export li span, .submenu_bom li span, .submenu_camera li span, .submenu_setting li span, .submenu_twod li span {
+    margin-bottom: 5px;
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+.submenu_animate, .submenu_export, .submenu_bom, .submenu_camera, .submenu_setting, .submenu_twod {
+    position: absolute;
+    right: 83px;
+    z-index: 9;
+    background-color: rgb(40, 41, 45);
+    color: #fff;
+}
+.animate_setup {
+    border-top-left-radius: 10px;
+}
+.twod_setup{
+    border-bottom-left-radius: 10px;
+}
+
+/*** Cabinet Styles ***/
+.top_animate{top: 0;}
+.top_export{top: 66px;}
+.top_bom{top: 132px;}
+.top_camera{top:194px;}
+.top_setting{top:260px;}
+.top_twod{top:330px;}
+
+
+.arrow__position {
+    position: relative;
+}
+.arrow__rightbox {
+    position: fixed;
+    top: 48%;
+    right: 90px;
+    width: 14px;
+}
+span.arrow_icon_setup {
+    display: table;
+    height: 100px;
+}
+span.arrow_icon_setup img {
+    width: 16px;
+    padding: 2px;
+    display: table-cell;
+    vertical-align: middle;
+    height: 100px;
+    background-color: rgb(40, 41, 45);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    cursor: pointer;
+}
+.rightempty{right:0px !important;}
+.leftempty{left:0px !important;}
+.arrow__leftbox {
+    position: fixed;
+    left: 90px;
+    z-index: 9;
+    top: 48%;
+
+}
+.arrow__leftbox span.arrow_icon_setup img
+{
+  -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+    position: relative;
+    left: -5px;
+}
+
+.leftempty span.arrow_icon_setup img
+{
+  -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 10px;
+}
+
+.rightempty span.arrow_icon_setup img
+{
+  -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 10px;
+}

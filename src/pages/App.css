@@ -1,0 +1,491 @@
+.MuiGrid-spacing-xs-3 {
+    margin: 0 auto !important;
+    width: 100%;
+}
+
+.makeStyles-paper-2 {
+    text-align: left;
+}
+.buttlinks .MuiButton-label{
+  display: flex;
+}
+.makeStyles-media-3 {
+    border: 1px solid #666;
+    border-radius: 10px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    overflow-y: scroll;
+    line-height: 1.4;
+}
+
+.MuiPaper-elevation1 {
+    box-shadow: none !important;
+}
+
+.startdesign {
+    background-color: #fff;
+    width: 100%;
+    padding-left: 40px;
+    padding-top: 60px;
+}
+
+.MuiButtonBase-root {
+    display: inline-block !important;
+}
+
+.start {
+    background-color: #353434 !important;
+}
+
+.selectroom {
+    background-color: #353434 !important;
+}
+
+.MuiButton-label img {
+    width: 50px;
+    height: 50px;
+    padding-right: 10px;
+}
+
+img.innerlogo {
+    width: 25%;
+    margin-bottom: 50px;
+}
+
+.MuiTypography-h5 {
+    font-size: 18px !important;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.MuiPaper-root {
+    background: none !important;
+}
+
+svg:hover {
+    fill: #000;
+}
+
+hr.designimg {
+    margin: 20px 0px;
+    width: 88%;
+    background-color: #999;
+    border: 1px solid #999;
+    margin: 50px 0;
+}
+
+.MuiPaper-root.MuiPaper-elevation1.MuiPaper-rounded h3 {
+    font-size: 28px;
+    margin-bottom: 25px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+.MuiPaper-root.MuiPaper-elevation1.MuiPaper-rounded h3 small {
+    font-size: 20px;
+    font-weight: 500;
+    color: #bbb;
+}
+
+.MuiTypography-h5 {
+    margin-top: 0px !important;
+}
+
+.MuiButton-contained {
+    display: inline-block;
+    background-color: #000000 !important;
+    color: #fff !important;
+    margin: 10px !important;
+    border-radius: 10px !important;
+    height: 65px;
+}
+
+span.MuiButton-label {
+    font-size: 18px;
+
+}
+
+.buttlinks {
+    margin-left: -10px;
+}
+
+h2 {
+    font-size: 72px;
+    line-height: 80px;
+    padding-right: 225px;
+    font-weight: 600;
+}
+
+.MuiButtonBase-root {
+    width: 222px;
+}
+
+.contkitchen {
+    padding-right: 35%;
+    line-height: 2;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+
+/*select page*/
+.select {
+    color: #fff;
+}
+
+hr.selectpage {
+    margin: 20px 0px;
+    width: 34%;
+}
+
+.select h2 {
+    padding-right: 125px;
+}
+
+.shapes img {
+    width: 80%;
+}
+
+p.shapename {
+    color: #9ca4ab;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 10px 25px 10px 0px;
+    font-weight: bold;
+}
+
+.shapesec {
+    margin-top: 40px;
+}
+
+.MuiGrid-spacing-xs-3>.MuiGrid-item {
+    padding: 12px;
+    height: 100vh;
+}
+
+.MuiGrid-root.secshape.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-6 {
+    background-color: white;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.MuiGrid-root.shapepage.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-6 {
+    padding-top: 30px;
+
+
+}
+
+.contshape {
+    padding-right: 160px;
+}
+
+.spinner {
+    width: 0px;
+    padding: 0px;
+    margin-left: 0px;
+    margin-right: 16px;
+}
+
+.ui-spinner {
+    width: 100px;
+    height: 34px;
+}
+
+.ui-spinner-button {
+    width: 100px;
+}
+
+.ui-spinner .ui-icon {
+    left: 40%;
+}
+
+.ui-spinner-input {
+    color: transparent;
+    outline: none;
+}
+
+.box {
+    position: relative;
+    padding-left: 15px;
+}
+
+#size {
+    width: 70px;
+    height: 70px;
+    border-radius: 0;
+    background-color: #fff;
+}
+
+.ui-spinner-down {
+    position: absolute;
+    left: 0;
+    top: 18px;
+    color:#fff;
+}
+
+.ui-spinner-up {
+    position: absolute;
+    right: 0px;
+    text-align: right;
+    top: 18px;
+    color:#fff;
+}
+
+.ui-spinner-button {
+    cursor: pointer;
+    text-decoration: none;
+    width: auto;
+}
+
+.ui-spinner-button:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+span.height_txt {
+    width: 100%;
+}
+
+input#size {
+    text-align: center;
+}
+
+svg {
+    width: 100%;
+}
+
+
+
+
+
+@media (min-width: 1400px) {
+    .makeStyles-media-3 {
+        height: 150px !important;
+    }
+}
+
+@media (max-width: 2000px) {
+    h2 {
+        font-size: 42px;
+        padding-right: 35%;
+        margin-top: 35px;
+    }
+
+    .contkitchen {
+        font-size: 12px;
+        padding-right: 33%
+    }
+
+    span.MuiButton-label {
+        font-size: 14px;
+    }
+
+    .MuiButton-contained {
+        height: 50px;
+    }
+
+    .MuiPaper-root.MuiPaper-elevation1.MuiPaper-rounded h3 {
+        font-size: 20px;
+    }
+
+    .MuiTypography-h5 {
+        font-size: 14px !important;
+    }
+
+    .MuiButton-label img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .MuiGrid-spacing-xs-3 {
+        margin: 0 auto !important;
+        width: 100% !important;
+
+    }
+
+    h2 {
+        font-size: 48px;
+        line-height: 52px;
+        padding-right: 150px;
+        font-weight: 600;
+    }
+
+    .MuiButton-contained {
+        margin: 5px !important;
+    }
+
+    img.innerlogo {
+        width: 30%;
+        margin-bottom: 0px;
+    }
+
+    .MuiCardContent-root {
+        padding: 11px !important;
+    }
+
+    hr.designimg {
+        margin: 20px 0px;
+        border-top: 1px solid #000;
+        width: 88%;
+    }
+
+    span.MuiButton-label {
+        font-size: 14px;
+    }
+
+    .buttlinks .MuiButtonBase-root {
+        width: 165px;
+        padding: 6px 9px;
+    }
+
+    .MuiButton-label img {
+        padding-right: 5px !important;
+    }
+
+    .MuiButtonBase-root {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1024px) {
+    h2 {
+        font-size: 45px;
+        padding-right: 50px;
+    }
+
+    .contkitchen {
+        padding-right: 20%;
+    }
+
+    span.MuiButton-label {
+        font-size: 12px;
+    }
+
+    .buttlinks .MuiButtonBase-root {
+        width: 130px;
+    }
+
+    .MuiButton-label img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .buttlinks .MuiButtonBase-root {
+        padding: 6px 3px;
+    }
+
+    hr.designimg {
+        width: 100%;
+    }
+}
+
+@media (max-width: 960px) {
+    .MuiGrid-container {
+        display: block !important;
+    }
+
+    h2 {
+        padding: 0px;
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .startdesign {
+        background-image: none !important;
+
+    }
+
+    .MuiGrid-spacing-xs-3 {
+        width: 100% !important;
+    }
+
+    .MuiButtonBase-root {
+        width: 97% !important;
+    }
+
+    .startdesign {
+        padding: 15px;
+    }
+
+    img.innerlogo {
+        margin-bottom: 0px;
+    }
+
+    .select h2 {
+        padding: 0px;
+    }
+
+    .contshape {
+        padding: 0px;
+    }
+
+    .contkitchen {
+        padding: 0px;
+    }
+
+    img.innerlogo {
+        width: 30%;
+    }
+}
+
+@media (max-width: 640px) {
+    img.innerlogo {
+        width: 35%;
+    }
+     .MuiGrid-spacing-xs-3 > .MuiGrid-item {
+        height: 100%;
+      }
+    #floorplanner-canvas { margin-top: 175px; }
+    .rightside__changebtn { top: 10%; }
+    h1  { font-size: 24px; }
+    .rightside__changebtn ul li { padding: 0; height: auto; }
+    .layout_sec, .add_window_link, .add_door_link { width: 85px; height: 85px; }
+    .add_elements span, .layout_sec span { font-size: 12px; }
+    .add_elementhover { right: 125px; }
+    .add_elementdoor { right: 228px; }
+    .add_window_link, .add_door_link { padding-top: 8px; }
+}
+
+@media (max-width: 480px) {
+    img.innerlogo {
+        width: 40%;
+    }
+}
+
+@media (max-width: 420px) {
+    img.innerlogo {
+        width: 45%;
+    }
+}
+
+@media (max-width: 380px) {
+    img.innerlogo {
+        width: 50%;
+    }
+}
+
+@media (max-width: 360px) {
+    img.innerlogo {
+        width: 55%;
+    }
+}
+
+@media (max-width: 320px) {
+    img.innerlogo {
+        width: 60%;
+    }
+}
+@media (max-width: 1400px) {
+    h2 { font-size: 36px; line-height: 38px; margin-top: 10px; padding-right: 100px; }
+    .startdesign { padding-top: 15px; }
+    span.MuiButton-label { font-size: 12px; }
+    .buttlinks .MuiButtonBase-root { width: 150px; }
+    .MuiPaper-root.MuiPaper-elevation1.MuiPaper-rounded h3 { margin-top: 15px; font-size: 18px; margin-bottom: 18px; }
+    .MuiPaper-root.MuiPaper-elevation1.MuiPaper-rounded h3 small { font-size: 18px; }
+    .contkitchen { margin-bottom: 15px; }
+}

@@ -1,0 +1,113 @@
+.threedview__structure
+{
+float:left;
+width:100%;
+display:block;
+position: relative;
+width:90px;
+}
+.sidemenu
+{
+  float:left;
+  width: 100%;
+  position: relative;
+  font-size: 10px;
+  font-weight: normal;
+}
+
+.cabinet__menu, .door_setup, .handle_setup, .misc_setup, .appliances_setup, .decor_setup, .sbt_setup {
+  float: left;
+    width: 100%;
+    cursor: pointer;
+    padding: 10px 0;
+    height: 66px;
+}
+.cabinet__menu span, .door_setup span, .handle_setup span, .misc_setup span, .appliances_setup span, .decor_setup span, .sbt_setup span {
+    margin-bottom: 5px;
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+
+ul.submenu_cabinet, ul.submenu_door, ul.submenu_handle, ul.submenu_misc, ul.submenu_appliances, ul.submenu_decor, ul.submenu_sbt {
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+    display: none;
+}
+ul.submenu_cabinet.expand_menu, ul.submenu_door.expand_menu, ul.submenu_handle.expand_menu, ul.submenu_misc.expand_menu, ul.submenu_appliances.expand_menu, ul.submenu_decor.expand_menu, ul.submenu_sbt.expand_menu  {
+    display: block;
+}
+.submenu_cabinet li, .submenu_door li, .submenu_handle li, .submenu_misc li, .submenu_appliances li, .submenu_decor li, .submenu_sbt li {
+    height: 66px;
+    vertical-align: middle;
+    display: table-cell;
+    width: auto;
+    padding: 5px 12px;
+}
+.submenu_cabinet li span, .submenu_door li span, .submenu_handle li span, .submenu_misc li span, .submenu_appliances li span, .submenu_decor li span, .submenu_sbt li span {
+    margin-bottom: 5px;
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+.submenu_cabinet, .submenu_door, .submenu_handle, .submenu_misc, .submenu_appliances, .submenu_decor, .submenu_sbt {
+    position: absolute;
+    left: 90px;
+    z-index: 9;
+    background-color: rgb(40, 41, 45);
+    color: #fff;
+}
+
+/*** Cabinet Styles ***/
+.top_cap{top: 0;}
+.top_door{top:66px;}
+.top_handle{top:132px;}
+.top_misc{top:194px;}
+.top_appliances{top:260px;}
+.top_decor{top:326px;}
+.top_sbt{top:392px;}
+
+
+.icons_redoflt {
+    position: relative;
+}
+.icons__topbox {
+    position: fixed;
+    left: 40%;
+    top: 0;
+    height: 80px;
+    z-index: 9;
+}
+ul.toprelated__items {
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+ul.toprelated__items li {
+    float: left;
+    list-style-type: none;
+    display: table;
+}
+span.svg__icon {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100px;
+}
+span.svg__icon img {
+    cursor: pointer;
+}
+.addcarticon__topbox {
+    position: fixed;
+    right: 10px;
+    z-index: 9;
+    top:0;
+}
+aside.toolbar.autohide_section
+{
+  min-height: 100vh;
+}
+.parent__aside, .idesign_view.addcolor {
+    background-color: #ddd;
+}
